@@ -119,7 +119,6 @@ class SameLevelSubdomain {
 // Activate plugin only if this is subdomain multisite
 // and if MULTISITE_CHANGE_SUBDOMAIN_TLD is defined
 if ( defined('MULTISITE') and MULTISITE
-     and defined('SUBDOMAIN_INSTALL') and SUBDOMAIN_INSTALL
-     and defined('MULTISITE_SAME_LEVEL_SUBDOMAINS') and MULTISITE_SAME_LEVEL_SUBDOMAINS ) {
+     and defined('SUBDOMAIN_INSTALL') and SUBDOMAIN_INSTALL ) {
     SameLevelSubdomain::init();
 }
